@@ -1,0 +1,670 @@
+local whitelistedUsers = {
+    "bakvet11123",
+    "ahmedeljafarti",
+    "D55N1",
+    "silent_isnotcheating"
+}
+
+
+local function isWhitelisted(username)
+    for _, v in pairs(whitelistedUsers) do
+        if v == username then
+            return true
+        end
+    end
+    return false
+end
+
+
+local player = game.Players.LocalPlayer
+local username = player.Name
+
+if isWhitelisted(username) then
+    print("Deze speler is WEL whitelisted | itsdevdonald op discord")
+
+else
+    print("Deze speler is NIET whitelisted |  add itsdevdonald op discord")
+    return 
+end
+
+print("Executing DONALD PREMIUM+")
+
+
+print("DONALD PREMIUM+ BY dc:itsdevdonald is WORKING | Je bent whitelisted") 
+print("Executing DONALD PREMIUM+")
+
+
+print("DONALD PREMIUM+ BY dc:itsdevdonald is WORKING | Je bent whitelisted")
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("DONALD PREMIUM+", "GrapeTheme")
+
+local Tab1 = Window:NewTab("EA [ FIVER ]")
+local Section1 = Tab1:NewSection("Emergency Amsterdam [ PRIVATE SERVER ONLY ]")
+
+Section1:NewKeybind("SET OPEN/CLOSE KEYBIND", "Minimalize", Enum.KeyCode.Insert, function()
+    Library:ToggleUI()
+end)
+
+Section1:NewButton("-- Politie XP --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Ranks.Police, (-1000)
+    )
+end
+end)
+
+Section1:NewButton("-- Mechanic XP --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Ranks.Mechanic, (-1000)
+    )
+end
+end)
+
+Section1:NewButton("-- KMar XP --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Ranks.KMar, (-1000)
+    )
+end
+end)
+
+Section1:NewButton("-- Ambulance XP --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Ranks.Ambulance, (-1000)
+    )
+end
+end)
+
+local Section1 = Tab1:NewSection("PRIVATE SERVER ONLY")
+
+Section1:NewButton("-- AK122 --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.AK122, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- AED --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.AED, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- AX50 --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.AX50, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- Asval --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.Asval, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- C4 --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.C4, (-50)
+    )
+end
+end)
+
+
+Section1:NewButton("-- Diamond --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.Diamond, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- Drill --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.Drill, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- Groen --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.Groen, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- Grijs --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.Grijs, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- JetPack --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.JetPack, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- KP9 --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.KP9, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- Jerrycan --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.Jerrycan, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- M17 --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.M17, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- M203 --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.M203, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- M173 --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.M173, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- Longbow --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.Longbow, (-50)
+    )
+end
+end)
+
+
+Section1:NewButton("-- M82A1 --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.M82A1, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- Paper --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.Paper, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- Radio --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.Radio, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- Repairkit --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.Repairkit, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- Shotgun --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.Shotgun, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- UMP --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.UMP, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- XM2010 --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.XM2010, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- XM2010 --", "EA", function()
+        local originalValueName = "Pistol Mk2" 
+local newValueName = "mk" 
+
+-- Iterate through all players
+for _, player in pairs(game.Players:GetPlayers()) do
+    -- Find the Inventory folder for each player
+    local inventory = player:FindFirstChild("Inventory")
+    
+    
+    if inventory then
+        local value = inventory:FindFirstChild(originalValueName)
+        
+       
+        if value then
+         
+            value.Name = newValueName
+            print("BAMBOE")
+        else
+            print("BAMBOE" .. player.Name)
+        end
+    else
+        print("Inventory folder not found for player " .. player.Name)
+    end
+end
+
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.mk, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- Lucky wheel Ticket --", "EA", function()
+    local originalValueName = "Lucky-wheel Ticket"
+local newValueName = "lwt" 
+
+
+for _, player in pairs(game.Players:GetPlayers()) do
+  
+    local inventory = player:FindFirstChild("Inventory")
+    
+    
+    if inventory then
+        local value = inventory:FindFirstChild(originalValueName)
+        
+       
+        if value then
+         
+            value.Name = newValueName
+            print("BAMBOE")
+        else
+            print("BAMBOE " .. player.Name)
+        end
+    else
+        print("Inventory folder not found for player " .. player.Name)
+    end
+end
+
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.lwt, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- Water liquid --", "EA", function()
+    local originalValueName = "Water liquid" 
+local newValueName = "wt" 
+
+
+for _, player in pairs(game.Players:GetPlayers()) do
+    local inventory = player:FindFirstChild("Inventory")
+    
+    if inventory then
+        local value = inventory:FindFirstChild(originalValueName)
+        
+        if value then
+            value.Name = newValueName
+            print("BAMBOE")
+        else
+            print("BAMBOE " .. player.Name)
+        end
+    else
+        print("Inventory folder not found for player " .. player.Name)
+    end
+end
+
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.wt, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- Desert Eagle --", "EA", function()
+    local originalValueName = "Desert Eagle" 
+local newValueName = "de" 
+
+
+for _, player in pairs(game.Players:GetPlayers()) do
+   
+    local inventory = player:FindFirstChild("Inventory")
+    
+    
+    if inventory then
+        local value = inventory:FindFirstChild(originalValueName)
+        
+        
+        if value then
+            
+            value.Name = newValueName
+            print("BAMBOE")
+        else
+            print("BAMBOE" .. player.Name)
+        end
+    else
+        print("Inventory folder not found for player " .. player.Name)
+    end
+end
+
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.de, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- Assault Rifle --", "EA", function()
+    local originalValueName = "Assault Rifle" 
+local newValueName = "ar" 
+
+
+for _, player in pairs(game.Players:GetPlayers()) do
+   
+    local inventory = player:FindFirstChild("Inventory")
+    
+    
+    if inventory then
+        local value = inventory:FindFirstChild(originalValueName)
+        
+        
+        if value then
+            
+            value.Name = newValueName
+            print("BAMBOE")
+        else
+            print("BAMBOE" .. player.Name)
+        end
+    else
+        print("Inventory folder not found for player " .. player.Name)
+    end
+end
+
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.ar, (-50)
+    )
+end
+end)
+
+Section1:NewButton("-- Compact Rifle --", "EA", function()
+    local originalValueName = "Compact Rifle" 
+local newValueName = "cr" 
+
+-- Iterate through all players
+for _, player in pairs(game.Players:GetPlayers()) do
+    -- Find the Inventory folder for each player
+    local inventory = player:FindFirstChild("Inventory")
+    
+    
+    if inventory then
+        local value = inventory:FindFirstChild(originalValueName)
+        
+       
+        if value then
+         
+            value.Name = newValueName
+            print("BAMBOE")
+        else
+            print("BAMBOE" .. player.Name)
+        end
+    else
+        print("Inventory folder not found for player " .. player.Name)
+    end
+end
+
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Inventory.cr, (-50)
+    )
+end
+end)
+
+local Section1 = Tab1:NewSection("-- GELD ISPAWNEN --")
+
+Section1:NewButton("-- Geld Toevoegen Bank --", "EA", function()
+local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Information.Bank, (-20000000)
+    )
+end
+end)
+
+Section1:NewButton("-- Geld Toevoegen Cash --", "EA", function()
+local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Information.Cash, (-20000000)
+    )
+end
+end)
+
+local Section1 = Tab1:NewSection("-- GELD RESET --")
+
+Section1:NewButton("-- Geld Reset Bank --", "EA", function()
+local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Information.Bank, (40000000)
+    )
+end
+end)
+
+Section1:NewButton("-- Geld Reset Cash --", "EA", function()
+local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Information.Cash, (40000000)
+    )
+end
+end)
+
+local Section1 = Tab1:NewSection("-- Server Sounds --")
+
+Section1:NewButton("-- Sounds Spammer --", "EA", function()
+while task.wait() do
+
+  for _, player in next, game.Players:GetPlayers() do
+      game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Whizz:FireServer(player)
+  end
+end
+end)
+
+local Section1 = Tab1:NewSection("-- Funda Nep --")
+
+Section1:NewButton("-- Appartement --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    local info = player:FindFirstChild("Information")
+    if info then
+        local appartementen = info:FindFirstChild("Appartementen")
+        if appartementen then
+            local appartement1 = appartementen:FindFirstChild("Appartement1")
+            if appartement1 and appartement1:IsA("BoolValue") then
+                appartement1.Value = true
+            end
+        end
+    end
+end
+end)
+
+Section1:NewButton("-- Money Factory --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    local info = player:FindFirstChild("Information")
+    if info then
+        local appartementen = info:FindFirstChild("Appartementen")
+        if appartementen then
+            local moneyFactory = appartementen:FindFirstChild("MoneyFactory")
+            if moneyFactory and moneyFactory:IsA("BoolValue") then
+                moneyFactory.Value = true
+            end
+        end
+    end
+end
+end)
+
+Section1:NewButton("-- Witwas --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    local info = player:FindFirstChild("Information")
+    if info then
+        local appartementen = info:FindFirstChild("Appartementen")
+        if appartementen then
+            local witwas = appartementen:FindFirstChild("Witwas")
+            if witwas and witwas:IsA("BoolValue") then
+                witwas.Value = true
+            end
+        end
+    end
+end
+end)
+
+local Section1 = Tab1:NewSection("-- Water/Money/Paper | MoneyFactory --")
+
+Section1:NewButton("-- Water --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Information.MoneyFactory.Water, (-1000000)
+    )
+end
+end)
+
+Section1:NewButton("-- Paper --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Information.MoneyFactory.Paper, (-1000000)
+    )
+end
+end)
+
+Section1:NewButton("-- Money --", "EA", function()
+    local players = game:GetService("Players"):GetPlayers()
+
+for _, player in ipairs(players) do
+    game:GetService('ReplicatedStorage')['ACS_Engine'].Events.Refil:FireServer(
+        player.Information.MoneyFactory.Water, (-1000000)
+    )
+end
+end)
+
+local Tab1 = Window:NewTab("BAMBOE")
+local Section1 = Tab1:NewSection("CREDITS | BAMBOE | MEX")
